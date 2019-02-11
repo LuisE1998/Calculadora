@@ -38,13 +38,13 @@ public class Calculadora_Luis {
         return ans;
     }
     
-    public int adicionar(int v){
-        ans=ans+v;
+    public int adicionar(int n){
+        ans=ans+n;
         return ans;
     }
     
-    public int sustraer(int v){
-        ans=ans-v;
+    public int sustraer(int n){
+        ans=ans-n;
         return ans;
     }
 }
