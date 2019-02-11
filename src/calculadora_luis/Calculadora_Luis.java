@@ -9,11 +9,13 @@ public class Calculadora_Luis {
     }
     
     public static void main(String[] args){
-        int a=0,b=0;
+        int a=0,b=0,c=0;
         a=suma(2,5);
         System.out.println("La suma es: "+a);
         b=adicionar(3);
         System.out.println("La adicion al es da: "+b);
+        c=dividir(4,2);
+        System.out.println("La division da: "+c);
     }
     
     public static int suma(int a, int b){
